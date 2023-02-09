@@ -17,3 +17,6 @@
 - Deeplearning Image Processing
 #### 2023-1
 - Database
+- - -
+#### Java Programming Study (2021-summer vacation)
+#### intelligent system lab (2021~)
