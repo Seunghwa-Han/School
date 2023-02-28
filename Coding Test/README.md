@@ -8,6 +8,7 @@
 | problem number | Topic | search.. |
 | --- | --- | --- |
 | 10828 | 스택 | string, str.find(), vector, stoi() |
+| 9093 | 단어 뒤집기 | istringstream, auto, algorithm: reverse |
 
 </details>
 
