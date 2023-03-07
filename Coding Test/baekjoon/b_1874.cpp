@@ -19,6 +19,8 @@ stack.top > seq : 불가능한 경우
 
 */
 
+
+// https://www.geeksforgeeks.org/print-stack-elements-from-top-to-bottom/
 void PrintStack(stack<int> s)
 {
     // If stack is empty
@@ -44,40 +46,44 @@ void PrintStack(stack<int> s)
 }
 
 int main(){
-    int n, seq, cur = 1; // 1 ≤ n ≤ 100,000
+    int n, seq, cur = 1, flag = 1; // 1 ≤ n ≤ 100,000
     string res =""; 
     stack<int> my_stack;
     my_stack.push(0);
 
     scanf("%d\n", &n);
     
-    for(int i=0; i<n-1; i++){
-        scanf("%d\n", &seq);
+    for(int i=0; i<n; i++){
+        scanf("%d", &seq);
 
-        if(my_stack.top() == seq){
-            my_stack.pop();
-            res += "-\n";
-        }
-        else if(my_stack.top() < seq){
-            if(cur > seq){
-                res = "NO\n";
-            }
-            else{
-                while(my_stack.top() < seq){
-                    my_stack.push(cur++);
-                    res += "+\n";
-                }
+        if(flag){
+            if(my_stack.top() == seq){
                 my_stack.pop();
                 res += "-\n";
             }
+            else if(my_stack.top() < seq){
+                if(cur > seq){
+                    res = "NO\n";
+                    flag = 0;
+                }
+                else{
+                    while(my_stack.top() < seq){
+                        my_stack.push(cur++);
+                        res += "+\n";
+                    }
+                    my_stack.pop();
+                    res += "-\n";
+                }
+            }
+            else { // my_stack.top() > seq 
+                res = "NO\n";
+                flag = 0;
+            }
         }
-        else { // my_stack.top() > seq 
-            res = "NO\n";
-        }
-        
-        printf(">>%d: ", seq);
-        PrintStack(my_stack);
-        printf("\n");
+
+        // printf(">>%d: ", seq);
+        // PrintStack(my_stack);
+        // printf("\n");
     }
 
     cout << res; 
