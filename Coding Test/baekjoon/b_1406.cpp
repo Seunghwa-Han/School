@@ -2,13 +2,12 @@
 #include <stdio.h>
 #include <string>
 #include <list> 
-#include <functional>
 using namespace std;
 
 /*
-abcdefg 
-size: 7 
-0 a 1 b 2 c 3 d 4 e 5 f 6 g 7
+a->b->c->d->
+it = lst.begin() : |a 
+
 */
 
 int main(){
@@ -26,21 +25,36 @@ int main(){
         list.push_back(input[i]);
     }
 
+    auto iter = list.end();
+
     for(int i=0; i<M; i++){
         getline(cin, command);
 
         if(command == "L"){
+            if(iter != list.begin()){
+                iter--;
+            }
         }
         else if(command == "D"){
+            if(iter != list.end()){
+                iter++;
+            }
         }
         else if(command == "B"){
+            if(iter != list.begin()){
+                iter = list.erase(--iter);
+            }
         }
         else{  // P $
-            string ch = command.substr(2);
+            char ch = command[2];
+            list.insert(iter, ch);
         }
     }
 
-    cout << input <<endl;
+    for(iter = list.begin(); iter!=list.end(); iter++){
+        cout << *iter;
+    }
+    printf("\n");
 
     return 0;
 }
