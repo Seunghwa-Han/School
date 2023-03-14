@@ -12,7 +12,7 @@
 | 9012 | 괄호 | stack |
 | 1874 | 스택수열 | stack |
 | 1406 | 에디터 | list, list time complexity |
-| 10845 | 큐 |  |
+| 10845 | 큐 | deque |
 
 </details>
 
