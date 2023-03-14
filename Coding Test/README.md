@@ -13,6 +13,7 @@
 | 1874 | 스택수열 | stack |
 | 1406 | 에디터 | list, list time complexity |
 | 10845 | 큐 | deque |
+| 1158 | 요세푸스 문제 | list.begin(),erase() |
 
 </details>
 
