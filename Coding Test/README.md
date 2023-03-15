@@ -15,6 +15,7 @@
 | 10845 | 큐 | deque |
 | 1158 | 요세푸스 문제 | list.begin(),erase(), queue |
 | 10866 | 덱 | deque |
+| 17413 | 단어 뒤집기2 | string.find(),substr() |
 
 </details>
 
