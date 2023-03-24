@@ -17,6 +17,7 @@
 | 10866 | 덱 | deque |
 | 17413 | 단어 뒤집기2 | string::find(),substr() |
 | 10799 | 쇠막대기 | stack time complexity |
+| 17298 | 오큰수 | cin.ignore(), istringstream |
 
 </details>
 
