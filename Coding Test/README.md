@@ -18,6 +18,11 @@
 | 17413 | 단어 뒤집기2 | string::find(),substr() |
 | 10799 | 쇠막대기 | stack time complexity |
 | 17298 | 오큰수 | cin.ignore(), istringstream |
+| --- | --- | --- |
+| 2609 | 최대공약수와 최소공배수 | Uclid algorithm, algorithm:swap() |
+| 1934 | 최소공배수 |  |
+| 1978 | 소수 찾기 | 에라토스테네스의 체, cmath:sqrt(), std::find |
+| 1929 | 소수 구하기 | |
 
 </details>
 
