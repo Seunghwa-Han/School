@@ -5,16 +5,19 @@
 using namespace std;
 
 /*
-3 5 2 7
-7 2 5 3
+3 5 2 7 -> 5 7 7 -1
+1초 
+N (1 ≤ N ≤ 1,000,000)
+A1, A2, ..., AN (1 ≤ Ai ≤ 1,000,000)
+
 */
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int N; // 수열 A의 크기 N (1 ≤ N ≤ 1,000,000)
-    string A; // 수열 A의 원소 A1, A2, ..., AN (1 ≤ Ai ≤ 1,000,000)
+    int N; 
+    string A;
     stack<int> my_stack;
 
     cin >> N;
