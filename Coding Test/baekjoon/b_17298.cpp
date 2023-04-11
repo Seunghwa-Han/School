@@ -18,7 +18,8 @@ int main(){
 
     int N; 
     string A;
-    stack<int> my_stack;
+    stack<int> st1;
+    stack<int> st2;
 
     cin >> N;
     cin.ignore();
@@ -29,26 +30,11 @@ int main(){
     int num;
     while(iss >> tmp){
         num = stoi(tmp);
-        my_stack.push(num);
+        st1.push(num);
     }
-    stack<int> st;
-    while(!my_stack.empty()){
-        num = my_stack.top();
-        st.push(num);
-        my_stack.pop();
-    }
-
-    while(1){
-        num = st.top();
-        st.pop();
-        if(num < st.top())
-            cout << num <<" ";
-        else
-            st.pop();
-    }
-
 
 
 
     return 0;
 }
+
