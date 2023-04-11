@@ -8,7 +8,7 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int N, M; 
+    int N, M; // (1 ≤ N ≤ 1024, 1 ≤ M ≤ 100,000
     int i, j, x1, x2, y1, y2, tmp;
 
     cin>> N;
