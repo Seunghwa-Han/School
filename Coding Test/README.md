@@ -31,6 +31,8 @@
 | 2018 | 수들의 합 5 | book.. |
 | 1940 | 주몽 | |
 | 1253 | 좋다 | |
+| 12891 | 좋다 | string::substr(), vector equality |
+| 11003 | 최솟값 찾기 | std pair, book.. |
 
 </details>
 
