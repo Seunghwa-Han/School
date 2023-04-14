@@ -11,6 +11,7 @@
         "string": "cpp",
         "list": "cpp",
         "queue": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "cmath": "cpp"
     }
 }
