@@ -35,6 +35,7 @@
 | 11003 | 최솟값 찾기 | std pair, book.. |
 | 11724 | 연결요소의 개수 | DFS |
 | 2023 | 신기한 소수 | backtracking |
+| 13023 | ABCDE | DFS |
 
 </details>
 
