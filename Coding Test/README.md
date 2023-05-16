@@ -43,5 +43,9 @@
 <details>
 <summary> problem list </summary>
 
+| problem | level | time | search.. |
+| --- | --- | --- | --- |
+| 신고 결과 받기 | lv1 | about 2h | stringstream, unordered_set, unordered_map |
+| 바탕화면 정리 | lv1 | in 1h | |
 
 </details>
