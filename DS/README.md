@@ -1,6 +1,6 @@
 # Data Structure
 
-### HW 
+- HW 
 
 | problem number | Topic | explanation..  |
 | --- | --- | --- |
