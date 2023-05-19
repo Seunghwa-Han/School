@@ -36,6 +36,7 @@
 | 11724 | 연결요소의 개수 | DFS |
 | 2023 | 신기한 소수 | backtracking |
 | 13023 | ABCDE | DFS |
+| 1260 | DFS와 BFS | fill, queue |
 
 </details>
 
