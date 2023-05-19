@@ -37,6 +37,7 @@
 | 2023 | 신기한 소수 | backtracking |
 | 13023 | ABCDE | DFS |
 | 1260 | DFS와 BFS | fill, queue |
+| 2178 | 미로 탐색 | BFS-level, pair |
 
 </details>
 
