@@ -51,5 +51,6 @@
 | 바탕화면 정리 | lv1 | in 1h | |
 | 공원 산책 | lv1 | about 1h 30m | find, substr |
 | 개인정보 수집 유효기간 | lv1 | about 45m | istringstream(string split) |
+| 성격유형 검사하기 | lv1 | about 30m | map.find() |
 
 </details>
