@@ -131,7 +131,7 @@ int main()
 	temp.set_data("21700248", "Cho", 6.3);
 	t1.insert_node(temp);
 
-  cout << "\n\nNode List : inorder sequence \n";
+    cout << "\n\nNode List : inorder sequence \n";
 
 	t1.show_inorder();
 
