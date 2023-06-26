@@ -17,6 +17,8 @@
 - Deeplearning Image Processing
 #### 2023-1
 - Database
+- IoT Lab
+- Compiler Theory 
 - - -
 #### Java programming study (2021-summer vacation)
 #### Intelligent system lab (2021~)
