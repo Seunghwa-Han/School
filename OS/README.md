@@ -1,6 +1,6 @@
 # Operating Systems
 
-### HW
+## HW
 1. a program to copy files and directories 
    - similar to 'cp' in Linux but simpler
    - using Linux system calls (open, read, write, file status)
