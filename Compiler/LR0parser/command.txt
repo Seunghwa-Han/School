@@ -1,0 +1,2 @@
+javac *.java ./util/*.java
+java LR0parser test1.txt

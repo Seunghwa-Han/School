@@ -1,0 +1,2 @@
+javac RecurParser.java Parser.java Lexer.java util/Token.java
+java RecurParser RecurParserInputs/testError1.txt

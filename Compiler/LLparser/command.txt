@@ -1,0 +1,2 @@
+javac *.java ./util/*.java
+java LLparser LL1ParserInputs/testError7.txt

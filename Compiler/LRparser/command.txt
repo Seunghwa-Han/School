@@ -1,0 +1,2 @@
+javac *.java ./util/*.java
+java LRparser LRParserInputs/test1.txt
