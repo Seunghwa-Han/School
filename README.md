@@ -16,7 +16,7 @@
 - Programming Language Theory
 - Deeplearning Image Processing
 #### 2023-1
-- Database
+- Database System
 - IoT Lab
 - Compiler Theory 
 - - -
