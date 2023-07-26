@@ -5,7 +5,7 @@ A = [list(map(int, input().split())) for _ in range(N)]
 
 move = [(1,0),(-1,0),(0,1),(0,-1)]
 
-def func(i, j, coord):
+def dfs(i, j, coord):
 	global sum_val 
 	visit[i][j] = True 
 	for di, dj in move:
@@ -15,7 +15,7 @@ def func(i, j, coord):
 			if L<=abs(A[i][j]-A[x][y])<=R:
 				coord.append((x,y))
 				sum_val += A[x][y]
-				func(x,y, coord)
+				dfs(x,y, coord)
 
 flag = True 
 ans = 0
@@ -28,7 +28,7 @@ while flag:
 			if not visit[i][j]:
 				coord = [(i,j)]
 				sum_val = A[i][j]
-				func(i,j, coord)
+				dfs(i,j, coord)
 				if len(coord)>=2:
 					flag = True 
 					sum_val = int(sum_val/len(coord))
