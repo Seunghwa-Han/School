@@ -20,6 +20,6 @@ def solution(number, k):
             else:
                 break 
     if k >0:
-        number = number[k:0]
+        number = number[k:]
         
     return number
