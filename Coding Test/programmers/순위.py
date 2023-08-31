@@ -6,13 +6,8 @@ def solution(n, results):
         graphs[v][u] = 1
     
     for k in range(1, n+1):
-        prev = graphs.copy()
         for i in range(1, n+1):
-            if i ==k:
-                continue
             for j in range(1, n+1):
-                if j==k or j==i :
-                    continue 
                 if graphs[i][k] and graphs[k][j] and not graphs[i][j]:
                         graphs[i][j]=1
     
