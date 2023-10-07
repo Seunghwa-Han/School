@@ -111,6 +111,7 @@ def solution(m, n, board):
         count += pop
 '''
 >> 다른 사람 코드 
+계산 편하게 하려고 board 행열 바꾸었음 (line107)
 4block찾고 아래로 당기는 부분: line100~102
 	아예 새로 만들어서 b[i]에 assign 해주었음 
 '''
