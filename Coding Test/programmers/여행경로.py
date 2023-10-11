@@ -53,4 +53,5 @@ https://school.programmers.co.kr/questions/33058
 1. 처음에 dictionary의 value를 set으로 구성했다 -> 중복티켓 고려못함 
 2. dictionary value를 역순으로 정렬시켜 놓고 
     뒤에서부터 반복문돌면서 함수 호출 
+    반복문 사용-> 사전순으로 앞선 경로로 가면 모든 edge를 순회못할경우 다른 길로 가야하기 때문에 
 '''
