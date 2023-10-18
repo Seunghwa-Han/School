@@ -3,6 +3,9 @@ https://school.programmers.co.kr/questions/32456 방법 참고
 * 주의사항 
 - 좌표와 list에서 x,y 축이 다름 
 - 그냥 list에 표기할 경우 너비나 높이차이 1인 경우에 바로 윗부분에 표기되므로 연결되어있는거처럼 착각됨 
+
+https://www.teferi.net/ps/problems/programmers/87694 이 코드처럼 그냥 simulation으로 구현하는 방법도 있다
+어차피 최소값은 둘레를 따라서 2가지 경우밖에 없으므로 !! 
 '''
 import sys 
 ans = sys.maxsize
